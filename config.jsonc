@@ -1,0 +1,82 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  ARCH
+//
+//  by Bina
+
+
+// execute with: fastfetch --colors-block-range-start 9 --colors-block-width 3
+
+{
+    "logo": {
+        "source": "~/.config//fastfetch/logo/frieren.txt",
+        "color": {
+           "1": "default"
+        },
+        "padding": {
+            "top": 2,
+            "right": 6,
+            "left": 6
+        }
+    },
+    "display": {
+        "separator": " ",
+        "color": {
+            "title":"default",
+            "keys":"default"
+        }
+    },
+    "modules": [
+	"break",
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "custom",
+            "format":"Arch BTW",
+            "key": " ",
+            "outputColor": "default"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "packages",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "outputColor": "default",
+        },
+        {
+            "type": "player",
+            "key": "󰝚 ",
+            "outputColor": "default",
+        },
+        "break",
+        "break",
+    ]
+}
